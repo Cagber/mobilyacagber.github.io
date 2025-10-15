@@ -1,0 +1,25 @@
+# Assistant Prompt Templates
+
+Bu dosya, projede kullanabileceğiniz kısa ve faydalı prompt şablonlarını içerir.
+
+1) Özet isteği
+Kullanım: Projeyi, dosyaları veya değişiklikleri hızlıca özetlemesi için.
+Prompt: "Bu repodaki değişiklikleri ve önemli dosyaları kısa bir paragrafta özetle."
+
+2) Kod inceleme isteği
+Kullanım: Belirli bir dosyayı veya PR'yi inceltmek için.
+Prompt: "`path/to/file` dosyasını incele ve performans, güvenlik ve stil açısından 3 iyileştirme önerisi ver."
+
+3) Yeni özellik isteği
+Kullanım: Yeni bir özellik eklenmesini talep ederken.
+Prompt: "Projeye `özellik adı` ekle: kabaca gereksinimler, hangi dosyaların değişeceği ve minimal implementasyon adımlarıyla birlikte bir plan hazırla."
+
+4) Hata ayıklama isteği
+Kullanım: Hata mesajı veya failing test verildiğinde.
+Prompt: "Aşağıdaki hata mesajını alıyorum: `...`. Bu hatanın olası nedenlerini ve çözüm adımlarını sırala."
+
+Kullanım notu:
+- Bu şablonları ihtiyaçlarınıza göre özelleştirebilirsiniz.
+- Daha ayrıntılı taleplerinizde, dosya yollarını ve ilgili kod parçalarını eklemeyi unutmayın.
+
+Oluşturuldu: 15 Ekim 2025

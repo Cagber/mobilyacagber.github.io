@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+
+<html class="light" lang="tr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Mobilya E-Ticaret</title>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#1173d4",
+            "background-light": "#f6f7f8",
+            "background-dark": "#101922",
+          },
+          fontFamily: {
+            "display": ["Manrope", "sans-serif"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          }
+        },
+      },
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-200">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<header class="flex items-center bg-background-light dark:bg-background-dark p-4 pb-2 justify-between sticky top-0 z-10 border-b border-gray-200 dark:border-gray-700">
+<button class="flex items-center justify-center text-gray-800 dark:text-gray-200">
+<span class="material-symbols-outlined text-2xl">menu</span>
+</button>
+<h1 class="text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center text-gray-900 dark:text-gray-100">Oturma Odası</h1>
+<button class="flex items-center justify-center text-gray-800 dark:text-gray-200">
+<span class="material-symbols-outlined text-2xl">shopping_cart</span>
+</button>
+</header>
+<main class="flex-grow">
+<div class="pb-3 sticky top-[65px] bg-background-light dark:bg-background-dark z-10">
+<div class="flex border-b border-gray-200 dark:border-gray-700 px-4 gap-8 overflow-x-auto">
+<a class="flex flex-col items-center justify-center border-b-[3px] border-b-primary text-primary pb-[13px] pt-4 shrink-0" href="#">
+<p class="text-sm font-bold leading-normal tracking-[0.015em]">Oturma Odası</p>
+</a>
+<a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-gray-500 dark:text-gray-400 pb-[13px] pt-4 shrink-0" href="#">
+<p class="text-sm font-bold leading-normal tracking-[0.015em]">Yatak Odası</p>
+</a>
+<a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-gray-500 dark:text-gray-400 pb-[13px] pt-4 shrink-0" href="#">
+<p class="text-sm font-bold leading-normal tracking-[0.015em]">Masa</p>
+</a>
+<a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-gray-500 dark:text-gray-400 pb-[13px] pt-4 shrink-0" href="#">
+<p class="text-sm font-bold leading-normal tracking-[0.015em]">Sandalye</p>
+</a>
+<a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-gray-500 dark:text-gray-400 pb-[13px] pt-4 shrink-0" href="#">
+<p class="text-sm font-bold leading-normal tracking-[0.015em]">Aydınlatma</p>
+</a>
+<a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-gray-500 dark:text-gray-400 pb-[13px] pt-4 shrink-0" href="#">
+<p class="text-sm font-bold leading-normal tracking-[0.015em]">Aksesuar</p>
+</a>
+</div>
+</div>
+<div class="flex items-center gap-3 p-4 bg-background-light dark:bg-background-dark overflow-x-auto sticky top-[125px] z-10 border-b border-gray-200 dark:border-gray-700">
+<button class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-gray-200 dark:bg-gray-700 px-4">
+<span class="material-symbols-outlined text-xl text-gray-800 dark:text-gray-200">filter_list</span>
+<p class="text-gray-800 dark:text-gray-200 text-sm font-medium leading-normal">Filtrele</p>
+</button>
+<button class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-gray-200 dark:bg-gray-700 pl-4 pr-3">
+<p class="text-gray-800 dark:text-gray-200 text-sm font-medium leading-normal">Sırala</p>
+<span class="material-symbols-outlined text-xl text-gray-800 dark:text-gray-200">expand_more</span>
+</button>
+<button class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-gray-200 dark:bg-gray-700 pl-4 pr-3">
+<p class="text-gray-800 dark:text-gray-200 text-sm font-medium leading-normal">Fiyat</p>
+<span class="material-symbols-outlined text-xl text-gray-800 dark:text-gray-200">expand_more</span>
+</button>
+<button class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-gray-200 dark:bg-gray-700 pl-4 pr-3">
+<p class="text-gray-800 dark:text-gray-200 text-sm font-medium leading-normal">Renk</p>
+<span class="material-symbols-outlined text-xl text-gray-800 dark:text-gray-200">expand_more</span>
+</button>
+<button class="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-gray-200 dark:bg-gray-700 pl-4 pr-3">
+<p class="text-gray-800 dark:text-gray-200 text-sm font-medium leading-normal">Malzeme</p>
+<span class="material-symbols-outlined text-xl text-gray-800 dark:text-gray-200">expand_more</span>
+</button>
+</div>
+<div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-4 p-4">
+<div class="flex flex-col gap-3 pb-3 group">
+<div class="relative w-full aspect-square">
+<div class="w-full h-full bg-center bg-no-repeat bg-cover rounded-lg" data-alt="Modern Gri Koltuk" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCzT3s_fINOcNtyULqcl4OgCl2tPp1l5GCo6QAP2wYQMb8f2wc2Vsw2CERoCSEaH5-TRWNQuz9HAl9L6fKVrd-OVKVnaBbq9LwTaueIOJ-fa1-rAXtk-apuUOqHFm4A3vZa8goNaueGolmu1yc9lSeis-0HkuW1r8EVKMYUptQjek_T7i3w94qSqqPstNO72yqlXFxooqM0JYMCPjosA3Ta9T75KUBCLzIXx3ZHMBOqyMK24WKkwGZ9ZXDG64CpYtwgnFbsLBB-jSPY");'></div>
+<button class="absolute top-2 right-2 bg-white/70 dark:bg-black/50 rounded-full p-1.5 backdrop-blur-sm">
+<span class="material-symbols-outlined text-red-500">favorite</span>
+</button>
+</div>
+<div>
+<p class="text-gray-900 dark:text-gray-100 text-base font-medium leading-normal">Modern Koltuk</p>
+<p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal">1.250 TL</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 group">
+<div class="relative w-full aspect-square">
+<div class="w-full h-full bg-center bg-no-repeat bg-cover rounded-lg" data-alt="Yeşil Chesterfield Koltuk" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDwcbEQriqRGct5vBnJp8_AQ-g0JsA-PfGDnT8QpPVDJD7PXl102M5YpVXiDLSG9sh5Gd013VdHz3PXcI7vD4whthqYQTen-I8g4nnxBv55i7Gd5am_NG3OE0qQ2uADpWw3o7t2qBK5jFYW7yFi32oySPdFRKFDsySV7TXg56ttXIZTlMmV48ihbZi9VP5j6EBDZjOezE6T2IMGhxYE_7A99fqY4E0Z6hs5lRs3Vauy_SQ8d0cjchKkGPRSMyrCIqscbIIZRRAyxTHT");'></div>
+<button class="absolute top-2 right-2 bg-white/70 dark:bg-black/50 rounded-full p-1.5 backdrop-blur-sm">
+<span class="material-symbols-outlined text-gray-500 dark:text-gray-400">favorite_border</span>
+</button>
+</div>
+<div>
+<p class="text-gray-900 dark:text-gray-100 text-base font-medium leading-normal">Chesterfield Koltuk</p>
+<p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal">2.500 TL</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 group">
+<div class="relative w-full aspect-square">
+<div class="w-full h-full bg-center bg-no-repeat bg-cover rounded-lg" data-alt="Sarı minimalist kanepe" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAig0Q-7y7dHVDLGs8hYtKOOFAK87-GtPbSrm68I0fkxJ79SEGpf8gYtA1lm178TGKyPH6yff2sLqLx6ICAYDooIASTvuH2X72QwYJ4pUndp0f5pxLqBrsUNf0m0sY_ra8RhUyPMPbdF_0XQtJyT82i-JTUV_2bllKifajaeWBnRNhah-adGZ6swaUfbaHbCtvR7LE4sM-va673joz-zQ8ZBuv7u64RQ6zlJB2dz7KuI2tNLnRYadz0bhAWJ6vCsl4ttz2JYZVttPlw");'></div>
+<button class="absolute top-2 right-2 bg-white/70 dark:bg-black/50 rounded-full p-1.5 backdrop-blur-sm">
+<span class="material-symbols-outlined text-gray-500 dark:text-gray-400">favorite_border</span>
+</button>
+</div>
+<div>
+<p class="text-gray-900 dark:text-gray-100 text-base font-medium leading-normal">Minimalist Kanepe</p>
+<p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal">1.800 TL</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 group">
+<div class="relative w-full aspect-square">
+<div class="w-full h-full bg-center bg-no-repeat bg-cover rounded-lg" data-alt="Mavi klasik berjer" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD5YVTesTmOsabo_hr6EaJrjP4qi8nDq99rJgQVBKUiVmv9y-XTQ-Xy2tyjr57GNg2cCTJDjHMp87QayPMptifbLybnjroP2FSI-JCfckm_uQJ5B0saG0nOwhEaoVQ7Sn4bF1Hk381yVy8H4gum2CPt-3JoyOYkYJDiPwCio6kZCaaUOw0th7pX-DZGo1bAeiOuygyChY6Dej522875ov67mbupjsQmIhR_s1JfWseu8NJGDR1Qqg8pXLmaxCyq1Sc1hJfh6uAsC--O");'></div>
+<button class="absolute top-2 right-2 bg-white/70 dark:bg-black/50 rounded-full p-1.5 backdrop-blur-sm">
+<span class="material-symbols-outlined text-gray-500 dark:text-gray-400">favorite_border</span>
+</button>
+</div>
+<div>
+<p class="text-gray-900 dark:text-gray-100 text-base font-medium leading-normal">Klasik Berjer</p>
+<p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal">950 TL</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 group">
+<div class="relative w-full aspect-square">
+<div class="w-full h-full bg-center bg-no-repeat bg-cover rounded-lg" data-alt="Ahşap TV Ünitesi" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAWSFJg4wAxOwAwQsJmD8KbGvwKAmOX74xuwhe6lV1_j8lCdpYXSS_OibJwfl-K4wtzSZlilWAXZRxtMn4wCZZHf9DmlceEpazsQdt4j3yOJBfcWq9YGiCId_atczmI8DIghlLAi7uTbiCyTLBq0gg3446KANyxpgSINKhnTX6OV61hPPg4q1FOHikRVFjQ_Ju2TPj-L6f9r3WRsdazxE4oe3sY6ircoGbXe9YTdcx1h1s1n2mH0uLk1W1lGpXpg--bO_OoqvSD4NRB");'></div>
+<button class="absolute top-2 right-2 bg-white/70 dark:bg-black/50 rounded-full p-1.5 backdrop-blur-sm">
+<span class="material-symbols-outlined text-gray-500 dark:text-gray-400">favorite_border</span>
+</button>
+</div>
+<div>
+<p class="text-gray-900 dark:text-gray-100 text-base font-medium leading-normal">Ahşap TV Ünitesi</p>
+<p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal">1.500 TL</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 group">
+<div class="relative w-full aspect-square">
+<div class="w-full h-full bg-center bg-no-repeat bg-cover rounded-lg" data-alt="Siyah metal kitaplık" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBKFCWBUcs0MFlry8ShUE9NtvQtXjVYwiW-s62MRbW1_ibvQ_G0ZajnYpmOWQLKNGJqaFdYnkiUuWMG1QJTs92GAye4RjM-gT3oo0aYc-D0kSXEThacB90-MRlPEuX5wy1PyU9-gveqS9O9rjjQosnlT8vI8EVOePTjF-tVxezG1-JWhSVoiSGD7dSORp1rYZFcNe2vn3j_rw3rbyzS3hIMJkpHOfL9NPIXUpFw0EVO2ZlYsj2q-KbME4o8Tj735Pdr6vqdzA3X7Q0l");'></div>
+<button class="absolute top-2 right-2 bg-white/70 dark:bg-black/50 rounded-full p-1.5 backdrop-blur-sm">
+<span class="material-symbols-outlined text-red-500">favorite</span>
+</button>
+</div>
+<div>
+<p class="text-gray-900 dark:text-gray-100 text-base font-medium leading-normal">Metal Kitaplık</p>
+<p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal">800 TL</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 group">
+<div class="relative w-full aspect-square">
+<div class="w-full h-full bg-center bg-no-repeat bg-cover rounded-lg" data-alt="Cam ve Metal Sehpa" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA-nEx8VCI9-QFcH0V0fKGlTDjVKcIub-OnzMbtXp-NsKVHP-q67KNwpQKEMnsPy1Cpoh9dhgehckCVazjvbe-QHsLp7b_PUAQisqJg66u1NhAqwv9Wygf_In-4cBR7L0r_N4DHQfLJ_bqRJ6gH8QGWqwCdZdtaM_dBL1sE4uET4s5eeL95NQn9pvPYvm46Ow5BiQpYuhQCZsyvkZM7vyxqQhAHa5tJ46DJ6-hJ17ErwmZM485THeeHmSiC39JYpPT0FIM9cGanXRI1");'></div>
+<button class="absolute top-2 right-2 bg-white/70 dark:bg-black/50 rounded-full p-1.5 backdrop-blur-sm">
+<span class="material-symbols-outlined text-gray-500 dark:text-gray-400">favorite_border</span>
+</button>
+</div>
+<div>
+<p class="text-gray-900 dark:text-gray-100 text-base font-medium leading-normal">Cam Sehpa</p>
+<p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal">600 TL</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 pb-3 group">
+<div class="relative w-full aspect-square">
+<div class="w-full h-full bg-center bg-no-repeat bg-cover rounded-lg" data-alt="Beyaz Mermer Yan Sehpa" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDJT6ljOhCYUadNIoiTq54pNBREW6hZjrVWTtlxluv4tuOxz1_UE2NeZIShlw4Lc7e3U7okKCzQN7QK33se05IwsfP1qj-xeR0M5fr800JJXe14NZ6Jt3XFReIh9_wG6ngb8gdVNVg51QSADG9pie3_fU6NVdumwnBGailUF9ioIUMRYTwXCbuidyqZdBzR3ruuK1T2LRLmNxNGbYH82ZcuHGvfkihuYWBO3D8HvQB4ZcBD4DPpFt-Ii0vuaJAaxtKMUF3MJyAqcqxM");'></div>
+<button class="absolute top-2 right-2 bg-white/70 dark:bg-black/50 rounded-full p-1.5 backdrop-blur-sm">
+<span class="material-symbols-outlined text-gray-500 dark:text-gray-400">favorite_border</span>
+</button>
+</div>
+<div>
+<p class="text-gray-900 dark:text-gray-100 text-base font-medium leading-normal">Mermer Yan Sehpa</p>
+<p class="text-gray-500 dark:text-gray-400 text-sm font-normal leading-normal">750 TL</p>
+</div>
+</div>
+</div>
+</main>
+</div>
+</body></html>
